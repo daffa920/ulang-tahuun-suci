@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday 🎂</title>
+
+    <link rel="stylesheet" href="dashboard.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 id="title">🎉 Selamat Ulang Tahun 🎂</h1>
+
+      <p class="message">
+        Hay sayangku selamat ulang tahun yaa sayang semoga apa yang kamu
+        inginkan segera terwujud 💖 terus bersamaku yaa sayang mau di fase susah
+        maupun mudah I will always love you and I will always be near you. ✨
+      </p>
+
+      <div class="gallery">
+        <!-- Horizontal -->
+        <img src="horizontal 1.jpeg" class="parallax horizontal" />
+        <img src="horizontal 2.jpeg" class="parallax horizontal" />
+        <img src="horizontal 3.jpeg" class="parallax horizontal" />
+        <img src="horizontal 4.jpeg" class="parallax horizontal" />
+        <img src="horizontal 5.jpeg" class="parallax horizontal" />
+        <img src="horizontal 6.jpeg" class="parallax horizontal" />
+        <img src="horizontal 7.jpeg" class="parallax horizontal" />
+        <img src="horizontal 8.jpeg" class="parallax horizontal" />
+        <img src="horizontal 9.jpeg" class="parallax horizontal" />
+
+        <!-- Vertical -->
+        <img src="vertikal 1.jpeg" class="parallax vertical" />
+        <img src="vertikal 2.jpeg" class="parallax vertical" />
+        <img src="vertikal 3.jpeg" class="parallax vertical" />
+        <img src="vertikal 4.jpeg" class="parallax vertical" />
+        <img src="vertikal 5.jpeg" class="parallax vertical" />
+        <img src="vertikal 6.jpeg" class="parallax vertical" />
+      </div>
+
+      <p class="footer">🎁 Dari seseorang yang peduli sama kamu 💕</p>
+    </div>
+
+    <!-- 💌 Popup -->
+    <div id="romanticBox" class="hidden">
+      <div class="romantic-content">
+        <p id="romanticText"></p>
+        <button onclick="closeRomantic()">Tutup 💕</button>
+      </div>
+    </div>
+
+    <!-- 🎵 AUDIO (NO AUTOPLAY BIAR TIDAK KE-BLOCK) -->
+    <audio id="birthdayMusic">
+      <source src="sempurna.mp4" type="audio/mpeg" />
+    </audio>
+
+    <!-- 🎂 KUE -->
+    <div id="cake" class="cake hidden">
+      <div class="candle"></div>
+    </div>
+
+    <!-- 🎇 CONFETTI -->
+    <canvas id="confettiCanvas"></canvas>
+
+    <script src="dashboard.js"></script>
+  </body>
+</html>
